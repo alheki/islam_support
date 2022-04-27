@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>tshtri_support</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.416942057754-52gm5t095amhp65t61p3bd5tuo22b11r</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>$(PRODUCT_NAME) application needs access to the calendar in order to be able to book a shaving appointment and choose the right time, and this helps you easily access the services.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) Needs access to camera to choose profile picture or to scan QR code to add order</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) application needs contacts access so that we can contact $(PRODUCT_NAME) with you and make contact and calls with you, and this helps to speed up service delivery.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>NSLocalNetworkUsageDescription</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) for a reliable direction for $(PRODUCT_NAME), we collects location data from the time you open the app until a $(PRODUCT_NAME) accepted your request. this improves delivery, support, and more</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>$(PRODUCT_NAME) for a reliable direction for $(PRODUCT_NAME), we collects location data from the time you open the app until a $(PRODUCT_NAME) accepted your request. this improves delivery, support, and more</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) for a reliable direction for $(PRODUCT_NAME), we collects location data from the time you open the app until a $(PRODUCT_NAME) accepted your request. this improves delivery, support, and more</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) microphone use.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs access to motion to be able to send you alerts and notifications, and this helps you access services easily.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Yafndem Needs access to gallery to choose profile picture or to upload images</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>$(PRODUCT_NAME) reminders use.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>$(PRODUCT_NAME) siri use.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs access to Speech Recognition to be able to send you alerts and notifications, and how call with you and this helps you access services easily.</string>
+	<key>NSVideoSubscriberAccountUsageDescription</key>
+	<string>$(PRODUCT_NAME) video use.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
