@@ -80,6 +80,7 @@ class SupportApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: AppConstants.appTitle,
+        initialRoute: '',
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: bgColor,
           textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme).apply(bodyColor: Colors.white),
